@@ -1,0 +1,62 @@
+.section-1-img{
+    height: 78vh;
+    width: 100vw
+}
+.section-2-img{
+    height: 78vh;
+    width: 100vw
+}
+.section-3-img{
+    height: 78vh;
+    width: 100vw
+}
+.sec-2-div{
+    background-image: "../images/2.jpg";
+}
+.section-4-img {
+    height: 17rem;
+    width: 20rem;
+}
+.section-1-certification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-1-certification-h1{
+    color:#accefa;
+    margin: 0 auto;
+}
+.section-1-whatwedo-h3{
+    color:#3B1591;
+}
+.whatwedo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.whatwedo-div::before{
+    content: "Services";
+    position: absolute;
+    font-size: 6rem;
+    color: #E7EDF2;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-box{
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 3rem
+}
+.section-3-admin{
+    display: flex;
+}
+.buysell{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
